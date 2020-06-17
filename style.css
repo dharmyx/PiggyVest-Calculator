@@ -1,0 +1,287 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #ffffff;
+}
+main {
+    height: auto;
+    width: auto;
+    font-family: 'Josefin Sans', Roboto;
+}
+
+header {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 100px;
+}
+.logo {
+    width: 200px;
+    height: 50px;
+    background-image: url(Assests/piggy-png_1_.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-self: center;
+}
+nav {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-self: center;
+}
+nav p {
+    padding: 25px;
+    margin: 10px auto;
+    font-size: 1rem;
+}
+nav > p > a {
+    text-decoration: none;
+    color: #083E9E;
+}
+p.createBtn {
+    align-self: center;
+    padding: 12px 20px;
+    border: 1px solid #414851;
+    border-radius: 5px;
+    color: #083E9E;
+    font-size: 1rem;
+}
+h2.text {
+    width: fit-content;
+    height: auto;
+    margin: 80px 100px 50px;
+    font-size: 2.5rem;
+    color: #083E9E;
+}
+.content {
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto 40% 40% auto;
+    grid-template-rows: 450px;
+    grid-template-areas: ". a b .";
+    gap: 50px;
+}
+.inner-content1 {
+    grid-area: a;
+    background-image: url(Assests/brainstorm2.jpg);
+    background-size: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.inner-content2 {
+    grid-area: b;
+}
+div.calculateBox {
+    margin: auto;
+}
+div>h3 {
+    font-size: 1.3rem;
+    color: #4A5568;
+    margin: 25px auto;
+}
+input[type=text] {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2rem;
+    background: rgba(0, 136, 204, 0.08);
+    color: rgba(59, 59, 59, 0.4);
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+select.time {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.1rem;
+    background: rgba(0, 136, 204, 0.08);
+    color: rgba(59, 59, 59, 0.7);
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+button.Calc {
+    padding: 15px 40px;
+    margin: 30px auto;
+    background-color: #c57330;
+    color: #ffffff;
+    font-family: 'Josefin Sans', Roboto;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-self: center;
+    outline: none;
+    cursor: pointer;
+}
+div.balance {
+    text-align: center;
+}
+p.est {
+    color: #083E9E;
+    margin: 2rem auto;
+}
+h2.total {
+    font-size: 1.6rem;
+    margin: 1rem;
+}
+h2.how {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 100px 0 50px;
+    color: #083E9E;
+}
+.content2 {
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto 40% 40% auto;
+    grid-template-rows: 400px;
+    grid-template-areas: ". a b .";
+    gap: 50px;
+}
+.inner2-content1 {
+    grid-area: a;
+    background-image: url(Assests/newhme.png);
+    background-size: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.inner2-content2 {
+    grid-area: b;
+}
+p.use {
+    color: #4A5568;
+    font-size: 1.1rem;
+    margin: 5rem 2rem;
+    line-height: 2;
+}
+button.btn1 {
+    padding: 15px 20px;
+    margin: 3rem;
+    background-color: #30C57B;
+    color: #ffffff;
+    font-family: 'Josefin Sans', Roboto;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-self: center;
+    outline: none;
+    cursor: pointer;
+}
+div.inner3-content {
+    width: 60%;
+    text-align: center;
+    margin: 80px auto 50px;
+}
+h3.over {
+    color: #083E9E;
+    font-size: 2rem;
+    padding: 10px;
+}
+p.piggy {
+    font-size: 1rem;
+    color: #4A5568;
+    line-height: 1.7;
+}
+button.bttn {
+    padding: 15px 20px;
+    margin: 50px auto 40px;
+    background-color: #144499;
+    color: #ffffff;
+    font-family: 'Josefin Sans', Roboto;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-self: center;
+    outline: none;
+    cursor: pointer;
+}
+div.stores {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+div.apple-store {
+    width: 150px;
+    height: 45px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 10px 10px 100px;
+    background-image: url(Assests/appStore.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+div.google-play {
+    width: 150px;
+    height: 45px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 10px 10px 100px;
+    background-image: url(Assests/googlePlay.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.last-content {
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto 50% 15% 15% auto;
+    grid-template-rows: auto;
+    grid-template-areas: ". x y z .";
+    gap: 30px;
+    background-color: rgba(0, 136, 204, 0.04);
+    padding: 50px 0;
+}
+.inner-footer1 {
+    grid-area: x;
+}
+div.logo-footer {
+    width: 150px;
+    height: 50px;
+    background-image: url(Assests/piggy-png_1_.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 20px 0;
+}
+div.footer-text {
+    font-size: .75rem;
+    line-height: 1.4;
+}
+p.office {
+    padding: 15px 0;
+    line-height: 2;
+}
+.inner-footer2 {
+    grid-area: y;
+}
+h4.qlink {
+    margin: 40px 30px 20px;
+}
+p.link {
+    margin: 10px 30px;
+    font-size: .75rem;
+}
+p.link a {
+    text-decoration: none;
+    color: #000000;
+}
+.inner-footer3 {
+    grid-area: z;
+}
+div.socials {
+    margin: 10px 30px;
+}

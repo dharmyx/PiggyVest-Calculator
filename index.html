@@ -6,15 +6,107 @@
         <title>PiggyVest Interest Calculator</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="Assests/fontawesome-with-css/css/all.min.css">
     </head>
     <body>
         <main>
             <header>
-                <h3 class="head">PiggyVest Interest Calculator</h3>
-                <p class="sub-head">Fill in the following fields to calculate how much you earn with our 10% interest rate:</p>
+                <div class="logo"></div>
+                <nav>
+                    <p><a href="#">About</a>
+                        </p>
+                    <p><a href="#">Stories</a>
+                        </p>
+                    <p><a href="#">FAQ</a>
+                        </p>
+                    <p><a href="#">Blog</a>
+                        </p>
+                    <p><a href="#">Log In</a>
+                        </p>
+                    <p class="createBtn">Create a Free Account</p>
+                </nav>
             </header>
-             <div class="amt">
+            <section id="one">
+                <h2 class="text">Estimate your Investment <br>growth over time</h2>
+                <div class="content">
+                    <div class="inner-content1"></div>
+                    <div class="inner-content2">
+                        <div class="calculateBox">
+                            <h3>Amount to Lock</h3>
+                            <input type="text" placeholder="&#x20a6; 0.00">
+                            <h3>Duration</h3>
+                            <select name="duration" class="time">
+                                <option value="Set Duration of Lock">Select Duration</option>
+                                <option value="30days">30day</option>
+                                <option value="60days">60days</option>
+                                <option value="90days">90days</option>
+                                <option value="1 year">1 year</option>
+                                <option value="2 years">2 years</option>
+                            </select>
+                            <button class="Calc">Calculate</button>
+                            <div class="balance">
+                                <p class="est">Estimated Balance</p>
+                                <h2 class="total">NGN 50,000.00</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="two">
+                <h2 class="how">How does the Calculator works</h2>
+                <div class="content2">
+                    <div class="inner2-content1"></div>
+                    <div class="inner2-content2">
+                        <p class="use">Use our "SafeLock" feature to lock funds away so you don't have access until your set date. You also earn over 13% p.a.</p>
+                        <button class="btn1">Create a Free Account</button>
+                    </div>
+                </div>
+            </section>
+            <section id="three">
+                <div class="inner3-content">
+                    <h3 class="over">Over ₦1,000,000,000 securely saved every month</h3>
+                    <p class="piggy">PiggyVest uses bank-level security measures to keep your data safe. PiggyVest users save & invest well over a billion every single month, and they are just getting started.</p>
+                    <button class="bttn">Create a Free Account</button>
+                    <div class="stores">
+                    <div class="apple-store"></div>
+                    <div class="google-play"></div>
+                </div>
+                </div>
+            </section>
+            <footer class="last-content">
+                <div class="inner-footer1">
+                    <div class="logo-footer"></div>
+                    <div class="footer-text">
+                    <p>PiggyVest (formerly piggybank.ng) is the largest online savings & investing platform in Nigeria. For over 4 years, our customers have saved and invested billions of Naira that they would normally be tempted to spend.</p>
+                    <p class="office">Office: Tesmot House, 3 Abdulrahman Okene Close, off Ligali Ayorinde Street, Victoria Island, Lagos. 0700 933 933 933 (Mon-Fri from 9am-5pm) - contact@piggyvest.com</p>
+                    <p>© 2016 - 2020 PiggyTech Global Limited - RC 1405222</p>
+                </div>
+                </div>
+                <div class="inner-footer2">
+                    <h4 class="qlink">Quick Links</h4>
+                    <p class="link"><a href="#">AutoSave™</a></p>
+                    <p class="link"><a href="#">PiggyLink</a></p>
+                    <p class="link"><a href="#">Quick Save™</a></p>
+                    <p class="link"><a href="#">SafeLock™</a></p>
+                    <p class="link"><a href="#">Withdrawals & Breaking</a></p>
+                    <p class="link"><a href="#">Salary Management</a></p>
+                </div>
+                <div class="inner-footer3">
+                    <h4 class="qlink">Company</h4>
+                    <p class="link"><a href="#">About</a></p>
+                    <p class="link"><a href="#">FAQ</a></p>
+                    <p class="link"><a href="#">Terms of Use</a></p>
+                    <p class="link"><a href="#">Privacy Policy</a></p>
+                    <div class="socials">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+                
+            </footer>
+             <!--<div class="amt">
                  <input type="text" placeholder="&#x20a6; Amount">
              </div>
              <div class="time">
@@ -22,8 +114,8 @@
              </div>
              <div class="btn">
                  <button type="submit">Calculate</button>
-             </div>
-           </main>
+             </div>-->
+        </main>
         
         <!--<script src="" async defer></script>-->
     </body>
