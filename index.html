@@ -27,6 +27,7 @@
                     <p class="createBtn">Create a Free Account</p>
                 </nav>
             </header>
+
             <section id="one">
                 <h2 class="text">Estimate your Investment <br>growth over time</h2>
                 <div class="content">
@@ -118,5 +119,23 @@
         </main>
         
         <!--<script src="" async defer></script>-->
+
+
+            <div class="amt">
+                <input id="amt" type="number" placeholder ="Enter Your Amount Here(&#x20a6;)">
+            </div>
+            <div class="time">
+                <input id="time" type="number" placeholder="Enter Your Duration Here (Month)">
+            </div>
+            <div class="btn">
+                <button onclick="calInterest()" id="btn" type="submit">Calculate</button>
+            </div>
+            <div class="result">
+                <p id="result"></p>
+            </div>
+        </main>
+
+        <script src="script.js"></script>
+
     </body>
 </html>
